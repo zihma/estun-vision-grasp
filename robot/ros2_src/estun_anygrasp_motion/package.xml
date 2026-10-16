@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+ <name>estun_anygrasp_motion</name><version>0.1.0</version>
+ <description>AnyGrasp plan-only ESTUN blended MoveIt interface</description>
+ <maintainer email="maintainer@example.invalid">Project maintainer</maintainer><license>MIT</license>
+ <buildtool_depend>ament_cmake</buildtool_depend>
+ <depend>rclcpp</depend><depend>codroid_msgs</depend><depend>step_motor</depend><depend>sensor_msgs</depend><depend>trajectory_msgs</depend>
+ <depend>moveit_ros_planning_interface</depend><depend>moveit_ros_planning</depend><depend>moveit_msgs</depend><depend>yaml-cpp</depend>
+ <exec_depend>rclpy</exec_depend><exec_depend>launch_ros</exec_depend><exec_depend>moveit_configs_utils</exec_depend><exec_depend>robot_state_publisher</exec_depend>
+ <exec_depend>estun_s3_60_eco_moveit_config</exec_depend>
+ <export><build_type>ament_cmake</build_type></export>
+</package>

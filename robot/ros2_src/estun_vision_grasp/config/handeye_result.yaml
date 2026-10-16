@@ -1,0 +1,5 @@
+calibrated: false
+calibration_type: eye_to_hand
+parent_frame: base_link
+child_frame: gemini336_color_optical_frame
+# Supply an independently measured transform before use.

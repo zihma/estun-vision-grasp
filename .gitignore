@@ -1,0 +1,23 @@
+# Local provenance and private files
+SOURCE_MANIFEST.json
+.env
+.env.*
+*license*.json
+license/
+*.key
+*.pem
+*.pt
+*.pth
+*.tar
+*.bag
+*.db3
+*.mcap
+# Generated files
+.venv/
+__pycache__/
+*.pyc
+demo_output/
+build/
+install/
+log/
+outputs/

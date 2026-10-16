@@ -1,0 +1,23 @@
+handeye_collector:
+  ros__parameters:
+    base_frame: base_link
+    tool_frame: tool0
+    marker_file: /tmp/estun_handeye_marker.yaml
+    max_marker_age_sec: 0.5
+    minimum_translation_change_m: 0.02
+    minimum_rotation_change_deg: 8.0
+
+target_bridge:
+  ros__parameters:
+    base_frame: base_link
+    camera_frame: gemini336_color_optical_frame
+    camera_target_file: /tmp/estun_foam_target_camera.yaml
+    base_target_file: /tmp/estun_foam_target_base.txt
+    output_topic: /foam_block/pose_base
+    max_target_age_sec: 0.5
+    minimum_confidence: 0.50
+    target_offset_xyz: [0.0, 0.0, 0.0]
+
+calibration_tf_publisher:
+  ros__parameters:
+    publish_rate_hz: 0.0
